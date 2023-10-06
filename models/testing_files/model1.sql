@@ -1,6 +1,6 @@
 SELECT a
 , array_agg(input1,input2)
-, week(date_input)
+, week(date_input,"input2",'input3')
 FROM table; 
 
 
