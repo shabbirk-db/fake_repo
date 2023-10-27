@@ -2,7 +2,7 @@ SELECT a
 , st_intersects(input1,input2)
 , is_integer(date_input)
 , get(somestuff)
-, getdate() as week_column
+, week() as week_column
 , cast(blah as variant) as test
 FROM table
 WHERE contains(x,y,z) = as_varchar(dkjghdfkghdkjghdf,'slohdfkg')
