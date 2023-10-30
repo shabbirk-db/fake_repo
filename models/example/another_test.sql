@@ -4,6 +4,11 @@ SELECT a
 , get(somestuff)
 , week() as week_column
 , cast(blah as variant) as test
+, cast(this AS VARBINARY) as test2
+, CAST( that as   FLOAT4) as test3
+, thiscolumn::OBJECT as test4
+, anothercolumn::VARCHAR as test5
+, hello
 FROM table
 WHERE contains(x,y,z) = as_varchar(dkjghdfkghdkjghdf,'slohdfkg')
 ; 
